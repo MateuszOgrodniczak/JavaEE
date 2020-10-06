@@ -1,0 +1,2234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="housing_association:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java" line="87" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java" line="145" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-flatly.css" line="115" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java" line="52" />
+    <bookmark url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class" description="this.checkOpen();" line="0" />
+    <bookmark url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class" description="this.checkOpen();" line="0" />
+    <bookmark url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class" description="this.checkOpen();" line="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/OwnerService.java" description="&lt;T&gt;  T getItemById(Class&lt;T&gt; clazz, long id, long o..." line="9" />
+    <bookmark url="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.10.0/camunda-engine-7.10.0.jar!/org/camunda/bpm/engine/ProcessEngine.class" description="public interface ProcessEngine extends ProcessEngi..." line="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="011f9168-e148-45d3-808c-0e20593c7777" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/UsersRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/UsersRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/dao/BuildingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/dao/BuildingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/validator/AdminBuildingValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/validator/AdminBuildingValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/HibernateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/HibernateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SecurityWebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SecurityWebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/ApartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/ApartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/BillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Apartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/OwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/validator/OwnerBuildingValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/validator/OwnerBuildingValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/dao/ConsumptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/dao/ConsumptionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/Consumption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/Consumption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/TenantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/TenantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/TokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/TokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/EntityRemovalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/EntityRemovalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/PdfService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/PdfService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/RequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/RequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/handlers/LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/handlers/LoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/RequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/RequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/validator/RegistrationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/validator/RegistrationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_pl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/accountActivation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/accountActivation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/adminBuildings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/adminBuildings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/adminUsers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/adminUsers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/saveBuilding.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/saveBuilding.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/tenant/tenantBills.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/tenant/tenantBills.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/housing_association.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/validator/AdminBuildingValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/admin/validator/AdminBuildingValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/config/HibernateConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/config/HibernateConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/config/SpringConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/config/SpringConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/controller/OwnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/controller/OwnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/dao/ApartmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/dao/ApartmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/dao/BillRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/dao/BillRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/model/Apartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/model/Apartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/model/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/model/Bill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/controller/TenantController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/controller/TenantController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/controller/TenantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/controller/TenantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/dao/ConsumptionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/dao/ConsumptionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/model/Consumption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/model/Consumption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/controller/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/EntityRemovalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/EntityRemovalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/handlers/LoginSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/handlers/LoginSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/impl/PdfServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/impl/PdfServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jee/spring_labs/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/META-INF/housing_association.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/validator/AdminBuildingValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/admin/validator/AdminBuildingValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/config/HibernateConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/config/HibernateConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/config/SpringConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/config/SpringConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/controller/OwnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/controller/OwnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/dao/ApartmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/dao/ApartmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/dao/BillRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/dao/BillRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/model/Apartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/model/Apartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/model/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/model/Bill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/controller/TenantController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/controller/TenantController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/controller/TenantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/controller/TenantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/dao/ConsumptionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/dao/ConsumptionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/model/Consumption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/model/Consumption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/controller/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/EntityRemovalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/EntityRemovalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/handlers/LoginSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/handlers/LoginSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/impl/PdfServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/impl/PdfServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/classes/com/jee/spring_labs/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.8.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.3.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/resources/i18n/language_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/resources/i18n/language_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/resources/i18n/language_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/resources/i18n/language_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/resources/i18n/language_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/resources/i18n/language_pl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/accountActivation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/accountActivation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/admin/adminBuildings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/admin/adminBuildings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/admin/adminUsers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/admin/adminUsers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/admin/saveBuilding.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/admin/saveBuilding.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/tenant/tenantBills.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/housing_association-1.0-SNAPSHOT/views/tenant/tenantBills.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2714#2715#0" expanded="true" />
+                <element signature="e#2745#2746#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Apartment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Bill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/Consumption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0-sources.jar!/javax/persistence/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3485">
+              <caret line="222" column="92" selection-start-line="222" selection-start-column="92" selection-end-line="222" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/ConsumptionType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Building.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>activate</find>
+      <find>acti</find>
+      <find>error.email.ta</find>
+      <find>error.username.taken</find>
+      <find>error.email.taken</find>
+      <find>[CRON</find>
+      <find>cron</find>
+      <find>delete</find>
+      <find>.saveI</find>
+      <find>new Apa</find>
+      <find>.saveItem(Co</find>
+      <find>insert</find>
+      <find>.saveItem</find>
+      <find>new Bill</find>
+      <find>Apartment cons</find>
+      <find>label.apartment.consumptions</find>
+      <find>getItemById(B</find>
+      <find>payBill</find>
+      <find>collect(C</find>
+      <find>OneToOne</find>
+      <find>exportToPdf</find>
+      <find>lombo</find>
+      <find>exportTo</find>
+      <find>findApartmentWithNoBillsOrConsumptions</find>
+      <find>hiber</find>
+      <find>jpa</find>
+      <find>orphan</find>
+      <find>.save</find>
+      <find>5.1.5</find>
+      <find>/verify</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;/div&gt;</replace>
+      <replace>&lt;div class=&quot;Column-input&quot;&gt;&lt;form:input</replace>
+      <replace>&lt;div class=&quot;Row&quot;&gt;</replace>
+      <replace>&lt;div class=&quot;Column&quot;&gt;</replace>
+      <replace>th</replace>
+      <replace>subject</replace>
+      <replace>Buildin</replace>
+      <replace>Request</replace>
+      <replace>SEND_</replace>
+      <replace>building</replace>
+      <replace>Bill</replace>
+      <replace>bill</replace>
+      <replace>Consumption</replace>
+      <replace>consumption</replace>
+      <replace>tenant</replace>
+      <replace>apartment</replace>
+      <replace>Apartment</replace>
+      <replace>userId</replace>
+      <replace>BILL_INFO</replace>
+      <replace>@Getter\n@Setter</replace>
+      <replace>removalService</replace>
+      <replace>boolean</replace>
+      <replace>Asociacion de vivienda</replace>
+      <replace>Aceptar</replace>
+      <replace>5.2.1</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\views</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/views/owner/ownerConsumptions.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/RequestController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/owner/bill.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/msg/leaveApartmentResponse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/tenant/tenantPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/RequestRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/RequestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/RequestsRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/RequestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/requests.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/UsersRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/dao/BuildingRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/msg/addToBillResponse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/owner/ownerBills.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/Consumption.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/adminBuildings.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/adminUsers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_pl.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/i18n/language_es.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/accountActivation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/HibernateConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/saveBuilding.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/EntityRemovalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Bill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/tenant/tenantBills.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/ApartmentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/BillRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/dao/ConsumptionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Apartment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Building.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/HomeController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="housing_association" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="housing_association" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="housing_association" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="tenant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="housing_association" type="b2602c69:ProjectViewProjectNode" />
+              <item name="housing_association" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/simple_calculator" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\views\owner" />
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\views" />
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\views\admin" />
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jee.spring_labs.owner.validator" />
+      <recent name="com.jee.spring_labs.admin.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\resources\img" />
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\views\owner" />
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\views\admin" />
+      <recent name="C:\Users\Mati\Development\spring-workspace\housing_association\src\main\webapp\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/home" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="housing_association:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_12_housing_association" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56111" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="housing_association:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_housing_association" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56111" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="011f9168-e148-45d3-808c-0e20593c7777" name="Default Changelist" comment="" />
+      <created>1554646086971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554646086971</updated>
+      <workItem from="1554646089563" duration="12178000" />
+      <workItem from="1554662847311" duration="4159000" />
+      <workItem from="1554727258091" duration="3830000" />
+      <workItem from="1554734032733" duration="4634000" />
+      <workItem from="1555776525823" duration="801000" />
+      <workItem from="1555832048920" duration="13073000" />
+      <workItem from="1555929982898" duration="13866000" />
+      <workItem from="1556035782839" duration="8949000" />
+      <workItem from="1556284655397" duration="2830000" />
+      <workItem from="1556351608156" duration="4928000" />
+      <workItem from="1556357548654" duration="4642000" />
+      <workItem from="1556362234662" duration="4424000" />
+      <workItem from="1556375443227" duration="11168000" />
+      <workItem from="1556444121789" duration="5917000" />
+      <workItem from="1556461149895" duration="13439000" />
+      <workItem from="1556539949310" duration="16987000" />
+      <workItem from="1557046342063" duration="13196000" />
+      <workItem from="1557146668835" duration="9404000" />
+      <workItem from="1557223360378" duration="5092000" />
+      <workItem from="1557231999463" duration="2292000" />
+      <workItem from="1557426139853" duration="4703000" />
+      <workItem from="1557514934287" duration="4378000" />
+      <workItem from="1557575902516" duration="7873000" />
+      <workItem from="1557648239192" duration="5933000" />
+      <workItem from="1557757409116" duration="4711000" />
+      <workItem from="1557943983393" duration="3484000" />
+      <workItem from="1557952583073" duration="1881000" />
+      <workItem from="1558024476516" duration="8578000" />
+      <workItem from="1558036904957" duration="544000" />
+      <workItem from="1558077569796" duration="6798000" />
+      <workItem from="1558112091765" duration="7353000" />
+      <workItem from="1558178419216" duration="18461000" />
+      <workItem from="1558209222460" duration="2880000" />
+      <workItem from="1558257993074" duration="15527000" />
+      <workItem from="1558333779826" duration="25000" />
+      <workItem from="1558336645440" duration="2347000" />
+      <workItem from="1558349780753" duration="18833000" />
+      <workItem from="1558433917375" duration="2760000" />
+      <workItem from="1558546095302" duration="5641000" />
+      <workItem from="1558728078989" duration="2847000" />
+      <workItem from="1558773634546" duration="9262000" />
+      <workItem from="1558883777477" duration="4356000" />
+      <workItem from="1558938385791" duration="190000" />
+      <workItem from="1558940077123" duration="599000" />
+      <workItem from="1558945623227" duration="3243000" />
+      <workItem from="1558950067491" duration="5377000" />
+      <workItem from="1558972529934" duration="996000" />
+      <workItem from="1559142982427" duration="6322000" />
+      <workItem from="1559149452295" duration="3069000" />
+      <workItem from="1559159482084" duration="2292000" />
+      <workItem from="1559328581146" duration="16261000" />
+      <workItem from="1559413825280" duration="945000" />
+      <workItem from="1559458713839" duration="22370000" />
+      <workItem from="1559504540445" duration="4469000" />
+      <workItem from="1559562562152" duration="9134000" />
+      <workItem from="1559572388200" duration="2188000" />
+      <workItem from="1559752642823" duration="2964000" />
+      <workItem from="1559838667809" duration="12000000" />
+      <workItem from="1559926964532" duration="7910000" />
+      <workItem from="1559938245230" duration="301000" />
+      <workItem from="1559938727969" duration="1993000" />
+      <workItem from="1559983967593" duration="9173000" />
+      <workItem from="1560017121067" duration="1197000" />
+      <workItem from="1560072642866" duration="8052000" />
+      <workItem from="1560094802389" duration="12206000" />
+      <workItem from="1560147908085" duration="10000" />
+      <workItem from="1560155581928" duration="7072000" />
+      <workItem from="1560167077602" duration="117000" />
+      <workItem from="1560169870481" duration="3073000" />
+      <workItem from="1560176977598" duration="3264000" />
+      <workItem from="1560188165012" duration="108000" />
+      <workItem from="1560248364411" duration="4188000" />
+      <workItem from="1560261786323" duration="1786000" />
+      <workItem from="1560279131826" duration="5000" />
+      <workItem from="1561049626151" duration="2475000" />
+      <workItem from="1561102420634" duration="2870000" />
+      <workItem from="1561194306773" duration="3288000" />
+      <workItem from="1561203511940" duration="1284000" />
+      <workItem from="1561216566503" duration="590000" />
+      <workItem from="1561460450091" duration="3783000" />
+      <workItem from="1561899711407" duration="5127000" />
+      <workItem from="1561994702836" duration="1308000" />
+      <workItem from="1561996554795" duration="1221000" />
+      <workItem from="1562004703332" duration="3066000" />
+      <workItem from="1562007811264" duration="1072000" />
+      <workItem from="1562087660918" duration="668000" />
+      <workItem from="1562088357587" duration="1702000" />
+      <workItem from="1562090483508" duration="2418000" />
+      <workItem from="1562093459292" duration="2331000" />
+      <workItem from="1562168151952" duration="595000" />
+      <workItem from="1562170005055" duration="1302000" />
+      <workItem from="1562319299117" duration="719000" />
+      <workItem from="1562322251599" duration="2174000" />
+      <workItem from="1562326033282" duration="1351000" />
+      <workItem from="1562328387050" duration="238000" />
+      <workItem from="1562328659716" duration="2542000" />
+      <workItem from="1562332951873" duration="596000" />
+      <workItem from="1562400904428" duration="4497000" />
+      <workItem from="1562415342236" duration="257000" />
+      <workItem from="1562422790649" duration="596000" />
+      <workItem from="1562489152730" duration="595000" />
+      <workItem from="1562508820830" duration="2524000" />
+      <workItem from="1562599099894" duration="13000" />
+      <workItem from="1572775527272" duration="8010000" />
+      <workItem from="1572804758673" duration="7423000" />
+      <workItem from="1572886001552" duration="7488000" />
+      <workItem from="1573391194477" duration="10427000" />
+      <workItem from="1573480133150" duration="4494000" />
+      <workItem from="1573490289467" duration="822000" />
+      <workItem from="1574237684905" duration="851000" />
+      <workItem from="1574335127914" duration="2555000" />
+      <workItem from="1574360770755" duration="1185000" />
+      <workItem from="1574433197541" duration="1196000" />
+      <workItem from="1574603274830" duration="950000" />
+      <workItem from="1574873675329" duration="445000" />
+      <workItem from="1574880477053" duration="67000" />
+      <workItem from="1574880752569" duration="1788000" />
+      <workItem from="1574925954293" duration="1770000" />
+      <workItem from="1574929647238" duration="29000" />
+      <workItem from="1590152580539" duration="21000" />
+      <workItem from="1590152617196" duration="708000" />
+      <workItem from="1590316392755" duration="596000" />
+      <workItem from="1590350457935" duration="590000" />
+      <workItem from="1590399593316" duration="591000" />
+      <workItem from="1590484799573" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="551663000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3665208" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3881748" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37393767" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30525163" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32808024" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.42406878" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32719395" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32932165" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.29035753" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="16" />
+      <window_info anchor="bottom" id="GraphQL" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.24362417" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="CDI" order="7" />
+      <window_info anchor="right" x="0" y="0" width="193" height="847" id="Documentation" order="8" side_tool="true" weight="0.3283582" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="right" id="BPMNPalette" order="13" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3881748" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33044422" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3066089" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32808024" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.42406878" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32719395" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32932165" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.29035753" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32932165" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="CDI" order="7" />
+      <window_info anchor="right" x="0" y="0" width="193" height="847" id="Documentation" order="8" side_tool="true" weight="0.3283582" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/UserServiceImpl.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/handlers/LoginFailureHandler.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/RequestController.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/RequestController.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>198</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>154</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/UserServiceImpl.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>255</line>
+          <properties />
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>257</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>154</line>
+          <properties />
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>163</line>
+          <properties />
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class</url>
+          <line>2368</line>
+          <properties />
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>270</line>
+          <properties />
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>266</line>
+          <properties />
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>274</line>
+          <properties />
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>278</line>
+          <properties />
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/event/internal/DefaultDeleteEventListener.class</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/event/internal/DefaultDeleteEventListener.class</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/event/internal/DefaultDeleteEventListener.class</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/RequestsRestController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/RequestsRestController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/RequestsRestController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/RequestsRestController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/HomeController.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/HomeController.java</url>
+          <line>198</line>
+          <properties />
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class</url>
+          <line>2254</line>
+          <properties />
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class</url>
+          <line>825</line>
+          <properties />
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class</url>
+          <line>830</line>
+          <properties />
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class</url>
+          <line>848</line>
+          <properties />
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.6.Final/hibernate-core-5.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class</url>
+          <line>782</line>
+          <properties />
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>55</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="((UsernamePasswordAuthenticationToken)authentication).principal" custom="org.springframework.security.authentication.UsernamePasswordAuthenticationToken" />
+        <watch expression="apartment.building" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>service.getItemById(Apartment.class, id, (long) session.getAttribute(&quot;userId&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>service.getItemById(Apartment.class, id, (long) session.getAttribute(&quot;userId&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>building.getAddress()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>building.getApartments()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Number)id).longValue() == 0L</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Number)id).longValue() == 0L);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LocalDate.parse(&quot;2018-06&quot;, DateTimeFormatter.ofPattern(&quot;YYYY-MM&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LocalDate.parse(&quot;2018-06&quot;, DateTimeFormatter.ofPattern(&quot;yyyy-mm&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpServletRequest.getParameterValues(&quot;recipientNames[]&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/EntityRemovalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/i18n/language_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="157" selection-start-line="157" selection-end-line="157" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/TenantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/tenant/apartment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7429">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/tenant/tenantConsumptions.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Collector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="806" column="27" selection-start-line="806" selection-start-column="27" selection-end-line="806" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/tenant/tenantBills.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/persistence/EnumType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/persistence/Enumerated.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/PdfService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/PdfServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="49" column="101" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/PdfController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/owner/bill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/controller/OwnerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="127" column="39" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/ApartmentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/dao/BillRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#105#1" expanded="true" />
+            <element signature="e#0#97#1" expanded="true" />
+            <element signature="e#0#82#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/dao/ConsumptionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/RequestRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#133#1" expanded="true" />
+            <element signature="e#0#54#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/TokenRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/model/RegistrationForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/model/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/model/ActivationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/SpringSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/dao/BuildingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/admin/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4710#4711#0" expanded="true" />
+            <element signature="e#4786#4787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/service/impl/OwnerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/service/impl/TenantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/config/HibernateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4131">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/user/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2714#2715#0" expanded="true" />
+            <element signature="e#2745#2746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Apartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/owner/model/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/Consumption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0-sources.jar!/javax/persistence/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/controller/TenantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="222" column="92" selection-start-line="222" selection-start-column="92" selection-end-line="222" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/tenant/model/ConsumptionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jee/spring_labs/model/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>housing_association:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (housing_association)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|housing_association</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

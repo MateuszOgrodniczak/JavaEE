@@ -1,0 +1,8 @@
+<h2>List of buildings</h2>
+<ul class="heroes">
+  <li *ngFor="let building of buildings; index as i">
+    <a routerLink="/detail/building/{{building.id}}">
+      <span class="badge">{{i+1}}</span> <span>{{building.name}} - {{building.address.city}}</span>
+    </a>
+  </li>
+</ul>

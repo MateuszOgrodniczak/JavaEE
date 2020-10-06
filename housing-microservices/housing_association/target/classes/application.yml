@@ -1,0 +1,56 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /housing
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  application:
+    name: housing-service
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  rabbitmq:
+    username: krolik
+    password: krolik
+    host: 212.51.218.232
+    port: 5672
+  security:
+    oauth2:
+      client:
+        client-id: politechnika
+        client-secret: politechnika1
+      resource:
+        tokenInfoUri: http://localhost:8085/oauth/check_token
+
+microservices:
+  application:
+    url: http://localhost:8000/application
+  notification:
+    url: http://localhost:8000/notification
+  pdfService:
+    url: http://localhost:8000/pdf
+  housing:
+    url: http://localhost:8000/housing
+    activation:
+      url: http://localhost:8000/housing/home/activateAccount?token=
+  authorization:
+    url: http://localhost:8085/oauth/token
+    client: politechnika
+    secret: politechnika1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+token:
+  invalidate:
+    password: test123
+

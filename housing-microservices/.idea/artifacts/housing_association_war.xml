@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="housing_association:war">
+    <output-path>$PROJECT_DIR$/housing_association/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>housing_association</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="housing_association-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="housing_association:war exploded" />
+    </root>
+  </artifact>
+</component>

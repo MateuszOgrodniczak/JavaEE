@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>BPMN</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/css/sheet.css" rel="stylesheet" type="text/css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="custom-container-big">
+			<!-- Activation link message -->
+			<div th:if="${activationLink != null}">
+				<div class="alert alert-dismissible alert-success custom-alertBox"
+					style="position: fixed">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<p>
+						<strong><span th:text="${activationLink}" /></strong>
+					</p>
+				</div>
+			</div>
+
+			<h1 class="display-3">BPMN - Projekt grupowy</h1>
+			<hr class="my-4" />
+			<div class="Row">
+				<div class="Column">
+					<a href="/home/register"><input type="button"
+						class="btn btn-success" style="width: 115%"
+						value='Zarejestruj się'></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

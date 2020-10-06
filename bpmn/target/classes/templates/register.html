@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>BPMN</title>
+<link href="/css/sheet.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script
+	src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+	async defer>
+</script>
+<script type="text/javascript">
+	var verifyCallback = function(response) {
+		$.ajax({
+			type : "GET",
+			url : 'verifyRecaptcha?token=' + response,
+			success : function(data) {
+				var verified = JSON.parse(data).success;
+				if (verified === true) {
+					// $('#register-submit').removeAttr("disabled");
+				} else {
+					grecaptcha.reset();
+					$('#recaptcha-error').css('display', 'inline');
+					$('#recaptcha-error').html(
+							'Error: ' + JSON.parse(data)["error-codes"]);
+				}
+			},
+			error : function(e) {
+				console.log("[ERROR]: " + e)
+				grecaptcha.reset();
+				$('#recaptcha-error').css('display', 'inline');
+			}
+		});
+	};
+	var onloadCallback = function() {
+		grecaptcha.render('recaptcha', {
+			'sitekey' : '6LeHkqAUAAAAANXWXGP_uErrIJwNdkLfkEV7R2Dg',
+			'callback': verifyCallback
+		});
+	};
+</script>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="custom-container-big">
+			<h1 class="display-3">Formularz rejestracyjny</h1>
+			<hr class="my-4" />
+			<form method="POST" action="/home/register" th:object=${form}
+				class="form-group">
+
+				<h4>Dane użytkownika</h4>
+				<div class="Row">
+					<div class="Column-label">
+						<label class="col-form-label">Imię</label>
+					</div>
+					<div class="Column-input">
+						<input class="form-control" th:field="*{name}" />
+					</div>
+					<div class="Column">
+						<span th:errors="*{name}" class="text-danger" />
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Column-label">
+						<label class="col-form-label">Nazwisko</label>
+					</div>
+					<div class="Column-input">
+						<input class="form-control" th:field="*{surname}" />
+					</div>
+					<div class="Column">
+						<span class="text-danger" th:errors="*{surname}" />
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Column-label">
+						<label class="col-form-label">Adres email</label>
+					</div>
+					<div class="Column-input">
+						<input class="form-control" th:field="*{email}" />
+					</div>
+					<div class="Column">
+						<span class="text-danger" th:errors="*{email}" />
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Column-label">
+						<label class="col-form-label">Numer telefonu</label>
+					</div>
+					<div class="Column-input">
+						<input class="form-control" th:field="*{phoneNumber}" />
+					</div>
+					<div class="Column">
+						<span class="text-danger" th:errors="*{phoneNumber}" />
+					</div>
+				</div>
+
+				<hr class="my-4" />
+				<h4>Dane konta</h4>
+				<div class="Row">
+					<div class="Column-label">
+						<label class="col-form-label">Nazwa użytkownika</label>
+					</div>
+					<div class="Column-input">
+						<input class="form-control" th:field="*{login}" />
+					</div>
+					<div class="Column">
+						<span class="text-danger" th:errors="*{login}" />
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Column-label">
+						<label class="col-form-label">Hasło</label>
+					</div>
+					<div class="Column-input">
+						<input type="password" class="form-control" th:field="*{password}" />
+					</div>
+					<div class="Column">
+						<span class="text-danger" th:errors="*{password}" />
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Column-label">
+						<label class="col-form-label">Powtórz hasło</label>
+					</div>
+					<div class="Column-input">
+						<input type="password" class="form-control"
+							th:field="*{confirmedPassword}" />
+					</div>
+					<div class="Column">
+						<span class="text-danger" th:errors="*{confirmedPassword}" />
+					</div>
+				</div>
+
+				<hr class="my-4" />
+				<div class="Row">
+					<div class="Column">
+						<div id="recaptcha"></div>
+					</div>
+				</div>
+				<div id="recaptcha-error" class="Row" style="display: none">
+					<div class="Column">
+						<div class="text-danger">Błąd recaptcha</div>
+					</div>
+				</div>
+				<span th:if="${recaptchaError != null}" class="text-danger" style="padding-left: 15px" th:text="${recaptchaError}" />
+
+				<div class="Row">
+					<div class="Column">
+						<a href="/home/cancelRegistration"><input type="button"
+							class="btn btn-danger" style="width: 115%" value='Anuluj'></a>
+					</div>
+					<div class="Column">
+						<input id="register" type="submit" class="btn btn-success"
+							style="width: 115%" value='Wyślij'>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

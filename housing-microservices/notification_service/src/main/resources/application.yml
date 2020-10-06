@@ -1,0 +1,43 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: notification-service
+  messages:
+    encoding: UTF-8
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: notification-db
+  rabbitmq:
+    username: krolik
+    password: krolik
+    host: 212.51.218.232
+    port: 5672
+
+security:
+  oauth2:
+    client:
+      client-id: politechnika
+      client-secret: politechnika1
+    resource:
+      tokenInfoUri: http://localhost:8000/oauth/check_token
+
+microservices:
+  rabbit:
+    server:
+      queue: 227941
+  housing:
+    activation:
+      url: http://localhost:8080/home/activateAccount?token=
+      sender: Housing Association
+  allowed:
+      ip: localhost,192.168.0.62,10.128.149.100
+      port: 8080,8000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

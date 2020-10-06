@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authorization_service/authorization_service.iml" filepath="$PROJECT_DIR$/authorization_service/authorization_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/housing-frontend/housing-frontend.iml" filepath="$PROJECT_DIR$/housing-frontend/housing-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/housing-microservices.iml" filepath="$PROJECT_DIR$/.idea/housing-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/housing_association/housing_association.iml" filepath="$PROJECT_DIR$/housing_association/housing_association.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification_service/notification_service.iml" filepath="$PROJECT_DIR$/notification_service/notification_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdf_service/pdf_service.iml" filepath="$PROJECT_DIR$/pdf_service/pdf_service.iml" />
+    </modules>
+  </component>
+</project>

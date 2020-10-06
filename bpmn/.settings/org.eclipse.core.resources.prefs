@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/bpmn/project/adapters/VerifyRecaptchaAdapter.java=UTF-8
+encoding//src/main/java/com/bpmn/project/controller/RegistrationController.java=UTF-8
+encoding//src/main/resources/templates/register.html=UTF-8

@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Sign in</h2>
+  <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" class="form-control" id="username" required [(ngModel)]="model.username" name="username">
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" required [(ngModel)]="model.password" name="password">
+    </div>
+
+    <input type="hidden" id="grant_type" name="grant_type" value="password"/>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>

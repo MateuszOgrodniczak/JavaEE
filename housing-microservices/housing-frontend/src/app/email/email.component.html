@@ -1,0 +1,28 @@
+<div *ngIf="userAuthenticated">
+  <div class="container">
+    <h2>Send email message to app user</h2>
+    <form (ngSubmit)="onSubmit()" #emailForm="ngForm">
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" class="form-control" id="subject" required [(ngModel)]="model.subject" name="subject">
+      </div>
+
+      <div class="form-group">
+        <label for="text">Text</label>
+        <input type="text" class="form-control" id="text" required [(ngModel)]="model.text" name="text">
+      </div>
+
+      <div class="form-group">
+        <label for="addressee">Recipient</label>
+        <select class="form-control" id="addressee" required [(ngModel)]="model.addressee" name="addressee">
+          <option *ngFor="let email of emailsToLogins | keyvalue" [value]="email.key">{{email.key}}</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+</div>
+<div *ngIf="!userAuthenticated">
+  <h3 class="alert-danger">You have no privileges to access email service. Sign in.</h3>
+</div>

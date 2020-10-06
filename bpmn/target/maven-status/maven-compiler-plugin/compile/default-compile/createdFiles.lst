@@ -1,0 +1,11 @@
+com\bpmn\project\conf\CamundaEngineHistoryConfiguration.class
+com\bpmn\project\controller\RegistrationController.class
+com\bpmn\project\conf\plugin\AddSendEventListenerToBpmnParseListener.class
+com\bpmn\project\conf\plugin\SendEventListener.class
+com\bpmn\project\TestApp.class
+com\bpmn\project\validator\RegistrationFormValidator.class
+com\bpmn\project\conf\plugin\SendEventListenerPlugin.class
+com\bpmn\project\adapters\SendMailAdapter.class
+com\bpmn\project\ProcessConstants.class
+com\bpmn\project\conf\CamundaIdGeneratorConfiguration.class
+com\bpmn\project\model\RegistrationModel.class

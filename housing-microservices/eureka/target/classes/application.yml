@@ -1,0 +1,16 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-service
+  rabbitmq:
+    username: krolik
+    password: krolik
+    host: 212.51.218.232
+    port: 5672
+
+eureka:
+  client:
+    fetch-registry: false
+    enabled: true

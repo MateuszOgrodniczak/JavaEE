@@ -1,0 +1,8 @@
+<h2>List of submitted applications</h2>
+<ul class="heroes">
+  <li *ngFor="let application of applications; index as i">
+    <a routerLink="/detail/application/{{application.id}}">
+      <span class="badge">{{i+1}}</span> <span>{{application.title}}</span>
+    </a>
+  </li>
+</ul>

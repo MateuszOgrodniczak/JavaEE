@@ -1,0 +1,60 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: gateway-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    fetchRegistry: true
+
+zuul:
+  routes:
+    test:
+      path: /test/**
+      url: http://www.youtube.com/
+    housing:
+      path: /housing/**
+      serviceId: HOUSING-SERVICE
+      strip-prefix: false
+      sensitiveHeaders:
+      ribbon:
+        listOfServers: localhost:8080
+    pdf:
+      path: /pdf/**
+      serviceId: PDF-SERVICE
+      strip-prefix: false
+      sensitiveHeaders:
+    form:
+      path: /application/**
+      serviceId: PDF-SERVICE
+      strip-prefix: false
+      sensitiveHeaders:
+    notification:
+      path: /notification/**
+      serviceId: NOTIFICATION-SERVICE
+      strip-prefix: false
+      sensitiveHeaders:
+    authorization:
+      path: /oauth/**
+      serviceId: AUTHORIZATION-SERVICE
+      strip-prefix: false
+      sensitiveHeaders:
+  host:
+    connect-timeout-millis: 1000000000
+    socket-timeout-millis: 1000000000
+
+ribbon:
+  ConnectTimeout: 1000000
+  ReadTimeout: 1000000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000000

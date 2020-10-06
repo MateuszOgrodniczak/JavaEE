@@ -1,0 +1,41 @@
+<div *ngIf="user">
+  <h2>Details of user: {{user.username}}</h2>
+  <div><strong>id:</strong> {{user.id}}</div>
+  <div><strong>name:</strong> {{user.name}} </div>
+  <div><strong>surname:</strong> {{user.surname}} </div>
+  <div><strong>email address:</strong> {{user.email}}</div>
+  <div><strong>phone number:</strong> {{user.telephone}}</div>
+  <div><strong>role:</strong> {{user.role}}</div>
+  <button (click)="goBack()">Back</button>
+</div>
+<div *ngIf="building">
+  <h2>Details of building: {{building.name}}</h2>
+  <div><strong>id:</strong> {{building.id}}</div>
+  <div><strong>name:</strong> {{building.name}} </div>
+  <div><strong>owner:</strong> <a routerLink="/detail/user/{{building.owner.id}}">{{building.owner.username}}</a></div>
+  <h3>Address</h3>
+  <div><strong>street:</strong> {{building.address.street}}</div>
+  <div><strong>city:</strong> {{building.address.city}}</div>
+  <div><strong>postal code:</strong> {{building.address.postalCode}}</div>
+  <h3>Apartments</h3>
+  <div *ngFor="let apartment of building.apartments">
+    <div><strong>room number:</strong> {{apartment.roomNumber}}</div>
+    <div><strong>tenant:</strong> <a routerLink="/detail/user/{{apartment.tenant.id}}">{{apartment.tenant.username}}</a></div>
+    <div><strong>removed:</strong> {{apartment.removed}}</div>
+  </div>
+  <button (click)="goBack()">Back</button>
+</div>
+<div *ngIf="application">
+  <h2>Details of the application form</h2>
+  <div><strong>id:</strong> {{application.id}}</div>
+  <div><strong>removed:</strong> {{application.removed}} </div>
+  <div><strong>title:</strong> {{application.title}} </div>
+  <div><strong>creation date:</strong> {{application.creationDate}} </div>
+  <div><strong>issuer:</strong> {{application.issuerNameAndSurname}} ({{application.issuerLogin}})</div>
+  <h3>Recipients</h3>
+  <div *ngFor="let recipient of application.recipients; index as i;">
+    <div><strong>{{i+1}}:</strong> {{recipient}}</div>
+  </div>
+  <button (click)="goBack()">Back</button>
+</div>
+
